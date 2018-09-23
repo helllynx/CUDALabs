@@ -1,0 +1,21 @@
+/home/black/SOFT/clion-2018.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/black/MIET/CUDA/lab1/lab1_maxload
+-- The CUDA compiler identification is NVIDIA 9.1.85
+-- Check for working CUDA compiler: /usr/bin/nvcc
+-- Check for working CUDA compiler: /usr/bin/nvcc -- works
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.cu
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: lab1_maxload
+
+
+-- Build files have been written to: /home/black/MIET/CUDA/lab1/lab1_maxload/cmake-build-debug

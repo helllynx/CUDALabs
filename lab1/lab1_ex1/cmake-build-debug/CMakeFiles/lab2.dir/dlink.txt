@@ -1,0 +1,1 @@
+/usr/bin/nvcc  -g -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/lab2.dir/hello.cu.o -o CMakeFiles/lab2.dir/cmake_device_link.o  -L"/usr/lib/x86_64-linux-gnu"

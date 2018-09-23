@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/black/MIET/CUDA/lab1/lab1_maxload/main.cu
+cuda_runtime.h
+/home/black/MIET/CUDA/lab1/lab1_maxload/cuda_runtime.h
+device_launch_parameters.h
+/home/black/MIET/CUDA/lab1/lab1_maxload/device_launch_parameters.h
+stdio.h
+-
+math.h
+-
+
